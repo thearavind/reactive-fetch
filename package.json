@@ -1,6 +1,6 @@
 {
   "name": "reactive-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -18,5 +18,20 @@
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.0",
     "typescript": "^3.2.2"
-  }
+  },
+  "description": "[![Build Status](https://travis-ci.com/thearavind/reactive-fetch.svg?branch=master)](https://travis-ci.com/thearavind/reactive-fetch)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thearavind/reactive-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "observable",
+    "rxjs"
+  ],
+  "author": "Aravindhan Jay (thearuvi@gmail.com)",
+  "bugs": {
+    "url": "https://github.com/thearavind/reactive-fetch/issues"
+  },
+  "homepage": "https://github.com/thearavind/reactive-fetch#readme"
 }
