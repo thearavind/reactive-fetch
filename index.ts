@@ -16,7 +16,7 @@ class FetchSubscriber<T> extends Subscriber<T> {
     fetch(url, { ...options, signal: this.controller.signal })
       .then((response: Response) => this._responseValidator(response))
       .then((jsonResponse: T) => this.observer.next(jsonResponse))
-      .catch((err: T | Error) => this.observer.error(err));
+      .catch((err: Error) => this.observer.error(err));
   }
 
   public unsubscribe(): void {
